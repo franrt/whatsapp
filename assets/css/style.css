@@ -1,0 +1,83 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+/* estilos fondo  */
+
+.background {
+    background-color: #dfdfdf;
+}
+
+.turqouise {
+    background-color: #009789;
+    height: 150px;
+    width: 100%;
+}
+
+
+/* estilos generales chatbox */
+
+.chatbox {
+    padding: 30px;
+    margin-top: -145px;
+    position: initial;
+}
+
+#top-der,
+#top-izq {
+    height: 60px;
+    width: 100%;
+    padding-left: 0px;
+    background-color: #eeeeee;
+    position: inherit;
+}
+
+
+/* estilos lateral izquierdo  */
+
+#izq {
+    background-color: #fefefe;
+    height: 550px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+#user {
+    height: 50px;
+    margin: 5px;
+}
+
+#lupa {
+    position: absolute;
+    margin-top: 20px;
+}
+
+
+/* estilos lateral derecho  */
+
+#der {
+    background-color: #fefefe;
+    background-image: url(../image/chat-panel-bg.png);
+    height: 550px;
+}
+
+i {
+    color: black;
+}
+
+.input-chat {
+    margin-top: 500px;
+}
+
+
+/*lista de contactos*/
+
+.contact {
+    height: 30px;
+}
+
+.user {
+    margin-left: 10px;
+}

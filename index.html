@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WhatsApp-Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="FontAwesome\font-awesome-4.7.0\css\font-awesome.min.css" rel="stylesheet">
+    <link href="FontAwesome/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="materialize/css/materialize.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- fondo sitio completo -->
+    <section class="background">
+        <div class="turqouise"></div>
+    </section>
+
+    <!-- Section gicante contenedor chatbox -->
+    <section class="chatbox">
+        <div class="row">
+            <div class="col m12">
+
+                <!-- lateral izquierdo -->
+                <section class="left-side">
+                    <div class="lateralIzq">
+                        <div class="row">
+                            <div class="col m4" id="izq">
+
+                                <div class="usuario">
+                                    <div class="row">
+                                        <div class="col m12" id="top-izq">
+
+                                            <div class="col m11" id="img-usr">
+                                                <img src="assets/image/gian.jpg" alt="user" class="circle left-align" id="user">
+                                                <i aria-hidden="true" class="fa fa-address_card" id="address-card"></i><i aria-hidden="true" class="fa fa-menu" id="menu"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="busqueda">
+                                    <div class="row">
+                                        <div class="col m12">
+                                            <div class="cards-chat">
+                                                <div class="col m11">
+                                                    <input type="text" id="search-chat">
+                                                </div>
+                                                <div class="col m1">
+                                                    <a><i aria-hidden="true" class="fa fa-search" id="lupa"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- en esta parte deben aparecer cards con img contacto + nombre, debajo ultimo mensaje y la derecha la hora. Cada card es un LI  -->
+                                <div class="contacts">
+                                    <div class="row">
+                                        <div class="col m12">
+                                            <!-- como deberia quedar cada card -->
+                                            <div class="contact" id="contacto">
+                                                <div class="col m12"><img src="assets/image/aldo.jpg" alt="aldo" "assets/image/gian.jpg" class="contact align-left circle">Aldo
+                                                    <div>último mensaje...</div>
+                                                    <div class="divider"></div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                </section>
+
+
+
+                <!-- lateral derecho -->
+                <section class="right-side">
+                    <div class="lateralDer">
+                        <div class="row">
+                            <div class="col m7 offset-m4" id="der">
+
+                                <div class="usr-right">
+                                    <div class="row">
+                                        <div class="col m12" id="top-der">
+
+                                            <div class="chat-contacts">
+                                                <div class="row">
+
+                                                    <div class="col m10 offset-m2" id="contacto">
+                                                        <img src="assets/image/aldo.jpg" alt="user" class="circle left-align user" id="user"><i aria-hidden="true" class="fa fa-paperclip" id="paperclip"></i>
+                                                    </div>
+                                                </div>
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- caja mensajes recibidos y enviados -->
+                                <div class="col m11">
+                                    <ul class="conversacion">hola soy una conversacion</ul>
+                                </div>
+
+
+                                <!-- input para enviar mensaje -->
+
+                                <div class="input-chat">
+                                    <div class="col m11">
+
+                                        <form class="add-items">
+                                            <input type="text" class="form-control" id="mensaje" placeholder="Escribe aquí tu mensaje!">
+                                            <button class="add-items btn" type="submit"><i aria-hidden="true" class="fa fa-microphone" id="mic"></i></button>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                </section>
+
+                <!-- cierre chatbox -->
+                </div>
+                </div>
+    </section>
+
+
+    <script src="jQuery/jquery-3.2.1.js"></script>
+    <script src="jQuery/jquery-3.2.1.min.js"></script>
+    <script src="materialize/js/materialize.min.js"></script>
+    <script src="assets/js/main.js">
+    </script>
+</body>
+
+</html>
